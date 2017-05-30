@@ -1,0 +1,116 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tax Invoice</title>
+</head>
+<body>
+    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tbody><tr>
+            <td>
+                <img src="http://www.kdksoftware.com/privacyimg/logojpeg.png" width="120px">
+				<a href="https://github.com/VahidN/iTextSharp.LGPLv2.Core">Github</a>
+            </td>
+            <td>
+                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tbody><tr>
+                        <td style="font-family: Calibri; font-size: 60px; color:#b8cce4; text-align:right;">
+                            TAX INVOICE
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080; text-align:right;line-height: 24px;">
+                            Invoice #: XXXXX
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080; text-align:right;line-height: 24px;">
+                            Invoice Date: DD/MM/YYYY
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" style="padding-top:30px;">
+                <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                    <tbody><tr>
+                        <td style="font-family: Calibri; font-size: 18px; color:#2a579a; padding-bottom:25px; width:25%;"><strong>FROM</strong></td>
+                        <td style="font-family: Calibri; font-size: 18px; color:#2a579a;padding-bottom:25px;width:25%;"><strong>BILL TO</strong></td>
+                        <td style="font-family: Calibri; font-size: 18px; color:#2a579a;padding-bottom:25px;width:25%;"><strong>CONSIGNEE DETAILS</strong></td>
+                        <td colspan="2" style="font-family: Calibri; font-size: 18px; color:#2a579a;padding-bottom:25px;width:25%;"><strong>OTHER DETAILS</strong></td>
+                    </tr>
+                    <tr>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Company Name</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Company Name</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Company Name</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tbody><tr>
+                                    <td width="150"><strong>Payment Term</strong></td>
+                                    <td width="50">:</td>
+                                    <td>Payment Term</td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Office Address</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Address</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Address</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tbody><tr>
+                                    <td width="150"><strong>Due Date</strong></td>
+                                    <td width="50">:</td>
+                                    <td>DD/MM/YYYY</td>
+                                </tr>                           
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Phone</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Phone/Mobile No</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Phone/Mobile No</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tbody><tr>
+                                    <td width="150"><strong>Delivery Date</strong></td>
+                                    <td width="50">:</td>
+                                    <td>DD/MM/YYYY</td>
+                                </tr>                           
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Fax fax</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Email ID</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Email ID</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tbody><tr>
+                                    <td width="150"><strong>E-commerce</strong></td>
+                                    <td width="50">:</td>
+                                    <td>Operator Name</td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">Email ID</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">&nbsp;</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">&nbsp;</td>
+                        <td style="font-family: Calibri; font-size: 16px; color:#808080;">
+                            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                <tbody><tr>
+                                    <td width="150"><strong>Operator</strong></td>
+                                    <td width="50">:</td>
+                                    <td>(GSTIN)</td>
+                                </tr>                            
+                        </td>
+                    </tr>                
+            </td>
+        </tr>
+
+    </tbody></table>
+
+</body></html>

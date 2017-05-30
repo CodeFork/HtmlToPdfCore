@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/bin/Debug/netcoreapp1.1
+/obj
+/CorePOC.csproj.user
+/obj
+/obj/CorePOC.csproj.nuget.g.props
